@@ -31,6 +31,6 @@ Consolidate column names and strip of unnecessary punctuations then rename colum
 ## Step 8 <small>(From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject)</small>
 Aggregate `UNION_DATA` with *mean* and store the new data into `AGGREGATED_DATA`
 ## Step 9 
-Write `AGGREGATED_DATA` into a file with format `tidyData%Y-%m-%d.%H-%M-%S.csv`.
+Write `AGGREGATED_DATA` into a file with format `tidyData%Y-%m-%d.%H-%M-%S.txt`.
 
 

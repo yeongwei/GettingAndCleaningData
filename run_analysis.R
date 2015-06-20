@@ -79,5 +79,5 @@ colnames(AGGREGATED_DATA)[1:2] <- standardColumnNames
 
 # Write to a file
 fileName <-
-  paste("tidyData", format(Sys.time(), "%Y-%m-%d.%H-%M-%S"), ".csv", sep = "")
+  paste("tidyData", format(Sys.time(), "%Y-%m-%d.%H-%M-%S"), ".txt", sep = "")
 write.table(AGGREGATED_DATA, file = fileName, sep = ",", row.name = FALSE)
